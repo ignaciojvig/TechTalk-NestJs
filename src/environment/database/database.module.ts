@@ -11,11 +11,11 @@ import { MongooseModule } from '@nestjs/mongoose';
       port: 5432,
       username: 'postgres',
       password: 'admin',
-      database: 'idemia',
+      database: 'techtalk',
       entities: [User],
       synchronize: true,
     }),
-    MongooseModule.forRoot('mongodb://localhost:27017/idemia', {
+    MongooseModule.forRoot('mongodb://localhost:27017/techtalk', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
